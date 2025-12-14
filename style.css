@@ -1,0 +1,89 @@
+/* ================= STYLE ISTORIE BAC ================= */
+
+/* Stil general – temă istorică */
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  background-color: #f5f1e8; /* efect de pergament */
+  color: #2b2b2b;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centrare conținut */
+body > * {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Titluri */
+h1 {
+  color: #5b2c06; /* maro istoric */
+  border-bottom: 3px solid #c2a15f;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #7a3e09;
+  margin-top: 30px;
+}
+
+/* Text */
+p {
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+/* Liste */
+ul, ol {
+  background-color: #fffaf0;
+  border-left: 5px solid #c2a15f;
+  padding: 15px 30px;
+  margin: 20px 0;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+/* Linkuri */
+a {
+  color: #8b0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #5b0000;
+}
+
+/* Buton Înapoi */
+a[href="index.html"] {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #c2a15f;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+a[href="index.html"]:hover {
+  background-color: #a8853d;
+}
+
+/* Efect de pagină de manual */
+@media (min-width: 768px) {
+  body {
+    background-image: linear-gradient(#f5f1e8, #efe6d2);
+  }
+}
+
+/* Footer (dacă vei adăuga) */
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 40px;
+}
